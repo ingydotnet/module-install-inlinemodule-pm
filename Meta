@@ -1,0 +1,28 @@
+=meta: 0.0.2
+
+name: Module-Install-InlineModule
+version: 0.01
+abstract: Module::Install Support for Inline::Module
+homepage: https://metacpan.org/release/Module-Install-InlineModule
+language: perl
+license: perl
+copyright: 2014
+
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  homepage: http://ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+
+devel:
+  git: https://github.com/ingydotnet/module-install-inlinemodule-pm
+  bug: https://github.com/ingydotnet/module-install-inlinemodule-pm/issues
+  irc: irc.perl.org#inline
+
+requires:
+  perl: 5.8.1
+  IO::All: 0
+  Inline::Module: 0
+  Module::Install: 1.10
