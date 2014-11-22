@@ -8,32 +8,36 @@ See http://github.com/ingydotnet/swim-pm#readme
 
 =head1 NAME
 
-Module::Install::TestML - Module::Install Support for TestML
+Module::Install::InlineModule - Module::Install Support for Inline::Module
 
 =head1 SYNOPSIS
 
     use inc::Module::Install;
 
-    name     'Foo';
-    all_from 'lib/Foo.pm';
+    name     'Foo-Bar';
+    all_from 'lib/Foo/Bar.pm';
 
-    use_testml_tap;
+    inline module => 'Foo::Bar';
 
     WriteAll;
 
 =head1 DESCRIPTION
 
-This module adds the C<use_testml_tap> directive to Module::Install.
+This module adds the C<inline> directive to Module::Install.
 
-Now you can get full TestML support for your module with no external
-dependency on TestML.
+You can use it to ship Inline::Module based modules.
 
-Just add this line to your Makefile.PL:
+=head1 SEE
 
-    use_testml_tap;
+=over
 
-That's it. Really. Now Test::Base is bundled into your module, so that it is
-no longer any burden on the person installing your module.
+=item * L<Inline::Module>
+
+=item * L<Module::Install>
+
+=item * L<Alt::Acme::Math::XS::ModuleInstall>
+
+=back
 
 =head1 AUTHOR
 
