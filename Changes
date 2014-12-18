@@ -1,4 +1,9 @@
 ---
+version: 0.02
+date:    Thu Dec 18 11:20:02 PST 2014
+changes:
+- Refactor to Inline-Module-0.25
+---
 version: 0.01
 date:    Sat Nov 22 07:10:08 UTC 2014
 changes:
