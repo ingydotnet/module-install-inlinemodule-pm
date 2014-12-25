@@ -1,4 +1,10 @@
 ---
+version: 0.03
+date:    Thu Dec 25 00:16:47 PST 2014
+changes:
+- Update Meta
+- Remove IO::All dep
+---
 version: 0.02
 date:    Thu Dec 18 11:20:02 PST 2014
 changes:

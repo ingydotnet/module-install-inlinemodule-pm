@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: Module-Install-InlineModule
-version: 0.02
+version: 0.03
 abstract: Module::Install Support for Inline::Module
 homepage: https://metacpan.org/release/Module-Install-InlineModule
 language: perl
@@ -23,6 +23,5 @@ devel:
 
 requires:
   perl: 5.8.1
-  IO::All: 0
-  Inline::Module: 0
-  Module::Install: 1.10
+  Inline::Module: 0.30
+  Module::Install: 1.14
